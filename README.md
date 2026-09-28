@@ -10,27 +10,25 @@ The current version processes a medical research paper, divides the document int
 
 ## Current Architecture
 
-```text
 Research PDF
-     ↓
+↓
 Text Extraction
-     ↓
+↓
 Document Chunking
-     ↓
+↓
 Embedding Generation
-     ↓
+↓
 Embedding Storage
-     ↓
+↓
 Question Embedding
-     ↓
+↓
 Cosine Similarity Search
-     ↓
+↓
 Top-K Relevant Chunks
-     ↓
+↓
 Gemini LLM
-     ↓
+↓
 Generated Answer
-'''
 
 
 Technologies
