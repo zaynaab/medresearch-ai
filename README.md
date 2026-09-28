@@ -9,7 +9,7 @@ MedResearch AI is a learning-focused implementation of a Retrieval-Augmented Gen
 The current version processes a medical research paper, divides the document into chunks, converts the chunks into embeddings, retrieves the most semantically relevant sections for a user question, and provides the retrieved context to a Gemini language model to generate an answer.
 
 ## Current Architecture
-
+```text
 Research PDF
 ↓
 Text Extraction
@@ -29,7 +29,7 @@ Top-K Relevant Chunks
 Gemini LLM
 ↓
 Generated Answer
-
+```
 
 Technologies
 Python
@@ -49,6 +49,7 @@ Top-k document retrieval
 LLM-based answer generation using retrieved context
 
 PROJECT STRUCTURE
+```
 medresearch-ai/
 │
 ├── documents/
@@ -58,6 +59,7 @@ medresearch-ai/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ***SETUP***
 1) CLONE THE REPOSITORY
